@@ -103,7 +103,7 @@
           <div class="cell"><h3>The model is the reference</h3><p>Formats, countries and products are described in relation to one model. Where a country distinguishes more finely, the model grows – for everyone.</p></div>
           <div class="cell"><h3>The original stays the receipt</h3><p>An incoming e-invoice or bank statement is kept byte for byte. Translations make it usable; they never replace it.</p></div>
           <div class="cell"><h3>Nothing is overwritten</h3><p>Books are append-only events. A correction is a reversal that refers to what it corrects.</p></div>
-          <div class="cell"><h3>Money is exact</h3><p>Amounts are exact decimals in any currency, never floating point. Every booking balances in every currency.</p></div>
+          <div class="cell"><h3>Money is exact</h3><p>Amounts are exact counts of a currency&rsquo;s smallest unit, never floating point. Every booking balances for every owner in every currency.</p></div>
           <div class="cell"><h3>Conflicts are visible</h3><p>When concurrent work breaks a rule of accounting, a person decides. Nothing is merged silently.</p></div>
           <div class="cell"><h3>Private by design</h3><p>Books are end-to-end encrypted between the people and devices that share them. Whoever relays them cannot read them.</p></div>
         </div>
@@ -137,9 +137,10 @@
             <tr><td class="mono">0002</td><td>Events and synchronisation – hybrid logical clocks, chains, merging</td><td class="state done">implemented</td></tr>
             <tr><td class="mono">0003</td><td>Canonical encoding – byte-exact, hashable by every implementation</td><td class="state done">implemented</td></tr>
             <tr><td class="mono">0004</td><td>Chart of accounts – harmonised, with national charts as translations</td><td class="state done">implemented</td></tr>
-            <tr><td class="mono">0005</td><td>Documents – receipts and invoices, originals and translations</td><td class="state done">implemented</td></tr>
+            <tr><td class="mono">0005</td><td>Documents – invoices and receipts as records, originals kept beside them</td><td class="state done">implemented</td></tr>
             <tr><td class="mono">0006</td><td>Encryption – end-to-end for groups of people and devices</td><td class="state open">draft</td></tr>
             <tr><td class="mono">0007</td><td>Filings – submissions to authorities, adapters per country</td><td class="state open">draft</td></tr>
+            <tr><td class="mono">0008</td><td>Parties – the organisations and persons books belong to</td><td class="state done">implemented</td></tr>
           </tbody>
         </table>
       </div>
