@@ -35,5 +35,8 @@ verification TXT is in place. `librotenado.com` and `.eu` redirect with **301** 
 
 ## Licence
 
-Code (HTML, CSS): [AGPL-3.0-or-later](LICENSE). Text: CC BY 4.0. Fonts: SIL Open Font License 1.1. Name and brand
-of librotenado belong to falkOSS – see the brand kit's README.
+Code (HTML, CSS): [AGPL-3.0-or-later](LICENSE). Text, and the whitepaper: CC BY 4.0. Fonts: SIL Open Font License
+1.1. The brand's artwork (icons, lockup, mark): CC BY-ND 4.0, copied from
+[librotenado/brand](https://github.com/librotenado/brand). Name and brand of librotenado belong to falkOSS – see the
+brand kit's README. Every file's licence is in `REUSE.toml` or its SPDX header ([REUSE](https://reuse.software),
+checked in CI).
